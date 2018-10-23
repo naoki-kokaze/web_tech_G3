@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Capricorn One</title>
+    <link rel="shortcut icon" href="assets1/page_icon.jpg">
+    <!-- This assignment is inspired by the film 'Capricorn One'. -->
+<head>
+    <style>
+        body {
+            color: #848484;
+            font-size: 1.3em;
+            font-family: Arial;
+        }
+        h1 {
+            padding-top: 50px;
+            width: 40%;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #0e315b;
+            text-align: center;
+        }
+        h4 {
+            padding-top: 100px;
+        }
+
+        header {
+            height: 150px;
+        }
+        #where_to {
+            height: 850px;
+        }
+        #how_to {
+            height: 500px;
+        }
+        #how_much {
+            height: 300px;
+        }
+        article {
+            height: 200px;
+        }
+        #itinerary {
+            height: 600px;
+        }
+        
+        caption {
+            font-weight: bold;
+        }
+  
+        svg {
+            float: left;
+        }
+        nav, form {
+            margin: 10px 40px 10px 40px;
+            clear: both;
+        }
+        figure {
+            width: 20%;
+            float: left;
+        }
+        #mars_text {
+            width: 70%;
+            float: left;
+        }
+        #map {
+            clear: both;
+            float: right;
+            margin-bottom: 20px;
+            margin-right: 40px;
+        }
+        #nasa_text {
+            clear: both;
+            padding: 10px 40px 10px 40px;
+        }
+        #video {
+            width: 45%;
+            float: left;
+        }
+        table {
+            width: 95%;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <svg width="150" height="150">
+        <rect x="40" y="30" width="100" height="100" fill="rgb(14, 46, 217)"/>
+        <circle cx="90" cy="80" r="30" fill="rgb(234, 241, 37)"/>
+    </svg>
+    <header>
+        <h1>TRAVEL WITH US</h1>
+    </header>
+    <nav>
+        <a href="#where_to">WHERE TO</a> |
+        <a href="#how_to">HOW TO</a> |
+        <a href="#how_much">HOW MUCH</a>
+    </nav>
+    
+    <section id="where_to">
+        <h2>WHERE TO TRAVEL</h2>
+        <article>
+            <figure>
+                <img src="assets1/mars.jpg" alt="Mars" width="200" height="200">
+                <figcaption>Mars</figcaption>
+            </figure>
+            <p id="mars_text"><a href="https://solarsystem.nasa.gov/planets/mars/overview/">Mars</a> is a cold desert world. It is half the size of Earth. Mars is sometimes called the Red Planet. It's red because of rusty iron in the ground.Like Earth, Mars has seasons, polar ice caps, volcanoes, canyons, and weather. It has a very thin atmosphere made of carbon dioxide, nitrogen, and argon.There are signs of ancient floods on Mars, but now water mostly exists in icy dirt and thin clouds. On some Martian hillsides, there is evidence of liquid salty water in the ground. Scientists want to know if Mars may have had living things in the past. They also want to know if Mars could support life now or in the future.</p>
+        </article>
+        <article>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.7961041745393!2d-77.01856368479324!3d38.882906555403494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b77f50ae6f01%3A0x676e7adc4032899b!2zTkFTQeacrOmDqA!5e0!3m2!1sja!2suk!4v1539889010602" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <p id="nasa_text"><a href="https://www.nasa.gov/centers/hq/home/index.html">NASA</a> Headquarters, in Washington, provides overall guidance and direction to the agency, under the leadership of the Administrator. Ten field centers and a variety of installations around the country conduct the day-to-day work in laboratories, on air fields, in wind tunnels, and in control rooms. Together, this skilled, diverse group of scientists, engineers, managers, and support personnel share the Vision, Mission, and Values that are NASA.</p>
+        </article>
+    </section>
+    <hr>
+    
+    <section id="how_to">
+        <h2>HOW TO TRAVEL</h2>
+        <figure id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fltoFDWy2oc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <figcaption>&copy;Peter Hyams, <em>Capricorn One</em>, Warner Bros., 1978</figcaption>
+        </figure>
+        <article id="itinerary">
+            <h4>Itinerary</h4>
+            <ol>
+                <li>Get on the spacecraft <em><a href="https://en.wikipedia.org/wiki/Capricorn_One">Capricorn One</a></em></li>
+                <li>Be removed from the spaceship and flown to an abandoned desert base</li>
+                <li>Be filmed landing on Mars within a studio located at the base</li>
+                <li>Be rescued from a pilot &amp; fly back to the state by the helicopter</li>
+            </ol>
+        </article>
+    </section>
+    <hr>
+
+    <section id="how_much">
+        <h2>HOW MUCH IT COSTS</h2>
+        <table border="1" cellpadding="20">
+            <tr>
+                <td rowspan="2">Tuesday</td>
+                <td>8am</td>
+                <td rowspan="4">&#36;1,000,000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">16pm</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Thursday</td>
+            </tr>
+            <tr>
+                <td>0am</td>
+            </tr>
+        </table>
+    </section>
+    
+    <form>
+        <fieldset>
+            <legend><font>CONTACT US</font></legend>
+                <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br>
+                <label>Surname</label>&nbsp;&nbsp;<input type="text"><br>
+                <label>Message</label>&nbsp;&nbsp;<textarea rows="3" cols="25" type="text"></textarea><br><br>
+                <button type="submit">Submit</button>
+            <!-- I just added the button element, though it is not encoded in the mockup. -->
+        </fieldset>
+    </form><br>
+        
+</body>
+</html>
